@@ -1,0 +1,46 @@
+.bx_login_block #login-line{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+a.bx_login_top_inline_link{
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+a.bx_login_top_inline_link svg{
+  display: block;
+  margin-bottom: 7px;
+}
+a.bx_login_top_inline_link:hover{
+	color: #000;
+}
+/*.bx_login_top_inline_icon{
+	display: inline-block;
+	margin-left: 15px;
+	width: 16px;
+	height: 13px;
+	background: url('images/gui.png') no-repeat bottom center;
+	line-height: 13px;
+}*/
+.bx_login_popup_form {
+	margin: 20px 0;
+}
+
+
+.bx_auth_popup_form, .containter input {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-collapse: collapse;
+    border: none;
+}

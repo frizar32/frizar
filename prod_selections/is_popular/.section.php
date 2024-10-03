@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Популярное";
+$arDirProperties = Array(
+
+);
+?>

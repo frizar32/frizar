@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Новинки", 
+		"/prod_selections/is_new/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Популярное", 
+		"/prod_selections/is_popular/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Акции", 
+		"/prod_selections/is_actions/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

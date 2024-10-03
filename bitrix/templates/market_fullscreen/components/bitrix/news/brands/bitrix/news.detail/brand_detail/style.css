@@ -1,0 +1,33 @@
+.tags-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+.tags-menu__items{
+    display: block;
+    padding: 4px 10px;
+    text-decoration: none;
+    border: 1px solid #e6e6e6;
+    color: #333333;
+}
+.tags-menu__items.active{
+    background: #ff8a00;
+    border-color: #ff8a00;
+    color: #ffffff;
+}
+
+.detail_text.is_cuted{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    overflow: hidden;
+}
+.toggleText span{
+    color: #ff8a00;
+    cursor: pointer;
+}
+.detail_text li::before{
+    position: static !important;
+}

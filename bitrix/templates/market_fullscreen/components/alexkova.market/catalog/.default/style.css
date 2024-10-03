@@ -1,0 +1,28 @@
+.bxr-section-desc {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+span.bxr-font-hover-light-span {
+    cursor: default;
+}
+
+span.bxr-offer-img-in-list.fancybox-Y {
+    cursor: pointer;
+}
+
+.open-form-help {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    margin: 17px auto;
+    color: #fff;
+    background-color: #0F7EDA;
+    border-color: #007bff;
+    font-weight: bold;
+	opacity: 0.9;
+}
+.open-form-help:hover {
+	color: #fff;
+}

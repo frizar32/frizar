@@ -1,0 +1,65 @@
+#marc_tabRECOMMENDED {
+	border: 1px solid #0f7eda;
+    color: #0f7eda;
+}
+.bx_login_popup_form input[type=submit]{
+	float: right;
+    margin-top: -30px;
+}
+.data-table input[name=USER_LOGIN] {
+	margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.bx-soa-sidebar {
+	    position: static !important;
+	    height: auto !important;
+	}
+	.bx-soa-cart-total-line::after,
+	.bx-soa-cart-total-line::before {
+		content: '';
+		clear: both;
+	}
+
+	.bx-soa-cart-total-ghost {
+		display: none;
+	}
+
+	.bx-soa-cart-total {
+		padding: 0 20px !important;
+		max-width: 100%;
+		height: 265px;
+	}
+	.bx-soa-cart-total .bx-soa-cart-total-line:first-child {
+		margin-top: 20px;
+	}
+	.bx-soa-cart-total-button-container>.btn {
+		margin-bottom: 20px;
+	}
+	/*.bx-soa-cart-total-line {
+		overflow: visible;
+		height: 25px;
+	}*/
+}
+
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+
+.bxr-ecommerce-v1 .bxr-element-container .bxr-element-action
+,.bxr-ecommerce-v1 .bxr-element-container .bxr-element-offers{
+    display: block !important;
+}
+.bxr-ecommerce-v1 {
+	height: 380px !important;
+}	
+.bxr-ecommerce-v1 .bxr-element-container {
+	height: 380px !important;
+}
+	
+	
+	

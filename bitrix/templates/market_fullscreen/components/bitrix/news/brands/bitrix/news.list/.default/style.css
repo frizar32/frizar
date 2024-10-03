@@ -1,0 +1,30 @@
+.brands-block {
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+	justify-content: start;
+	flex-wrap: wrap;
+}
+.brands-block__item {
+	display: flex;
+	width: 100%;
+	max-width: 200px ;
+	min-height: 180px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.brands-block__text {
+	font-size: 20px;
+	color: #333333;
+	padding: 10px;
+}
+.brands-block__item_border {
+	border: 1px solid #F6F6F6;
+}
+.brands-block__item_padding {
+	padding:20px;
+}
+.brands-block__item_margin {
+	margin: 7px;
+}

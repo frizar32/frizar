@@ -1,0 +1,1 @@
+<a href="/" class="bxr-logo"> <img src="<?=SITE_DIR?>images/logo.png" alt="Frizar" title="Frizar"> </a>

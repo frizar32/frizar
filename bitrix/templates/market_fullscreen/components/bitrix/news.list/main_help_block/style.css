@@ -1,0 +1,103 @@
+.main_help_block {
+    background: linear-gradient(119.28deg, #273460 -28.49%, #387CC1 109.04%);
+display: flex;
+    padding: 50px 50px;
+    justify-content: space-evenly;
+margin-bottom: 40px;
+}
+
+.main_help_block > * {
+	width:calc(50% - 30px);
+}
+
+.main_help_block .main_help_block_item {
+width:calc(50% - 20px);
+padding: 25px 0;
+}
+
+.main_help_block .main_help_block_item + .main_help_block_item {
+
+}
+.main_help_block .main_help_block_item .main_help_block_title {
+    margin-top: 15px;
+    font-size: 19px;
+    line-height: 1.2;
+}
+.main_help_block .main_help_block_item:nth-child(even) .main_help_block_title {
+}
+
+.main_help_block .main_help_block_item .main_help_block_list {
+
+}
+
+.main_help_block .main_help_block_item:nth-child(even) .main_help_block_list ul {
+
+}
+
+.main_help_block .main_help_block_item .main_help_block_icon {
+
+}
+.main_help_block .main_help_block_item:nth-child(even) .main_help_block_icon {
+
+}
+
+.main_help_block .main_help_block_item .main_help_block_icon img {
+
+}
+
+.main_help_block_content {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.main_help_block_content * {color:#fff; font-size: 19px;}
+
+.main_help_block_icons {
+	display: flex;
+    flex-flow: wrap;
+    color: #fff;
+	justify-content: space-between;
+}
+.main_help_title {
+	font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.main_help_about > a:hover {text-decoration:none}
+.main_help_about > a:after {
+	content:'→';
+	margin-left: 5px;
+}
+@media (max-width: 991px)
+{
+    .main_help_block{
+        padding: 24px 0;
+    }
+    .main_help_title{
+        font-size: 3rem;
+    }
+    .main_help_block .main_help_block_item .main_help_block_title{
+        font-size: 16px;
+    }
+}
+@media (max-width: 570px){
+    .main_help_block{
+        display: block;
+        padding: 24px 15px;
+    }
+    .main_help_title{
+        text-align: center;
+    }
+    .main_help_block > * {
+        width: 100%;
+    }
+    .main_help_block .main_help_block_item, .main_help_about {
+        text-align: center;
+    }
+    .main_help_title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}

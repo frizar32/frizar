@@ -1,0 +1,19 @@
+.action-form-t form input[type=text], .action-form-t form input[type=password] {
+	margin-bottom: 20px;
+}
+.authBtn{
+	float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.color-button.custom-margin{
+	color: #fff;
+	background: #3c569f;
+	margin: 10px 0;
+}
+@media(min-width: 992px){
+	.color-button.custom-margin{
+		display: none;
+	}
+}

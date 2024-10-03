@@ -1,0 +1,121 @@
+#marc_tabRECOMMENDED {
+	border: 1px solid #0f7eda;
+    color: #0f7eda;
+}
+.bx_login_popup_form input[type=submit]{
+	float: right;
+    margin-top: -30px;
+}
+.data-table input[name=USER_LOGIN] {
+	margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+	.bx-soa-sidebar {
+	    position: static !important;
+	    height: auto !important;
+	}
+	.bx-soa-cart-total-line::after,
+	.bx-soa-cart-total-line::before {
+		content: '';
+		clear: both;
+	}
+
+	.bx-soa-cart-total-ghost {
+		display: none;
+	}
+
+	.bx-soa-cart-total {
+		padding: 0 20px !important;
+		max-width: 100%;
+		height: 265px;
+	}
+	.bx-soa-cart-total .bx-soa-cart-total-line:first-child {
+		margin-top: 20px;
+	}
+	.bx-soa-cart-total-button-container>.btn {
+		margin-bottom: 20px;
+	}
+	/*.bx-soa-cart-total-line {
+		overflow: visible;
+		height: 25px;
+	}*/
+}
+
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+
+.bxr-ecommerce-v1 .bxr-element-container .bxr-element-action
+,.bxr-ecommerce-v1 .bxr-element-container .bxr-element-offers{
+    display: block;
+}
+.bxr-ecommerce-v1 {
+	height: 400px;
+}
+.bxr-ecommerce-v1 .bxr-element-container {
+	height: 380px;
+}
+
+.bxr-ecommerce-v1 .bxr-element-container .bxr-element-action {
+	display: block;
+}
+.bxr-ecommerce-v1:hover .bxr-element-container .bxr-element-action {
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.certificates__item {
+    flex: 1 1 200px;
+    margin: 15px;
+    max-width: 200px;
+}
+.certificates__item__image {
+    width: 100%;
+}
+.bxr-input-group input{width:230px;}
+.bxr_subscribe_submit_container{margin-top:-12px;}
+
+.bxr-ecommerce-v1 .bxr-element-container .bxr-element-name a{
+	font-size: 14px!important;
+}
+.bxr-ecommerce-v1 .bxr-color-button{
+	height: 32px;
+	margin-right: 15px;
+}
+.bxr-ecommerce-v1{
+	border: 1px solid #100;
+}
+.bxr-ecommerce-v1 .bxr-element-container{
+	height: 100%!important;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.bxr-default-element .bxr-promo-ribbon-info > span.bxr-promo-ribbon-name {
+    background: #3c569f8f!important;
+    color: #fff!important;
+    text-align: center!important;
+}
+@media (max-width: 322px) {
+	.bx-catalog-subscribe-button {
+		height: 40px!important;
+		padding: 10px 10px 0 10px!important;
+		margin-left: 7px;
+	}
+	.bxr-ecommerce-v1 .bxr-color-button {
+		height: 45px!important;
+	}
+	.bxr-ecommerce-v1{
+		height: 554px!important;
+	}
+}

@@ -1,0 +1,169 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+php_value mbstring.internal_encoding UTF-8
+
+<IfModule mod_php5.c>
+	php_flag session.use_trans_sid off
+	#php_value display_errors 1
+	#php_value mbstring.internal_encoding UTF-8
+	#php_value session.cookie_domain "shop.frizar.ru"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine On
+
+	RewriteCond %{HTTP_HOST} ^shop.frizar\.ru
+    RewriteRule ^(.*)$ https://frizar.ru/$1 [R=301,L]
+
+	#RewriteCond %{REQUEST_URI} (.*)
+	#RewriteRule ^(.*)$ https://frizar.ru/ [L,R=301]
+
+	#RewriteCond %{HTTPS} !=on
+	#RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+	RewriteCond %{REQUEST_URI} !\?
+	RewriteCond %{REQUEST_URI} !\&
+	RewriteCond %{REQUEST_URI} !\=
+	RewriteCond %{REQUEST_URI} !\.
+	RewriteCond %{REQUEST_URI} !\/$
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$
+	RewriteRule ^(.*)$ http://%1/$1/ [L,R=301]
+	 
+	RewriteCond %{REQUEST_URI} !\?
+	RewriteCond %{REQUEST_URI} !\&
+	RewriteCond %{REQUEST_URI} !\=
+	RewriteCond %{REQUEST_URI} !\.
+	RewriteCond %{REQUEST_URI} ![^\/]$
+	RewriteCond %{HTTP_HOST} ^www\.(.*)$
+	RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+	 
+	RewriteCond %{REQUEST_URI} !\?
+	RewriteCond %{REQUEST_URI} !\&
+	RewriteCond %{REQUEST_URI} !\=
+	RewriteCond %{REQUEST_URI} !\.
+	RewriteCond %{REQUEST_URI} !\/$
+	RewriteCond %{HTTP_HOST} ^([^www].*)$
+	RewriteRule ^(.*)$ http://%1/$1/ [L,R=301]
+	
+	
+
+	RewriteRule ^catalog/frezy_iz_tverdogo_splava_s_tsilindricheskim_khvostovikom_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_iz_tverdogo_splava_s_tsilindricheskim_khvostovikom_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/indikatory_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/indikatory_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/metchiki_dlya_metricheskoy_m_rezby_iz_bystrorezhushchey_stali_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/metchiki_dlya_metricheskoy_m_rezby_iz_bystrorezhushchey_stali_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/metchiki_dlya_rezby_pg_iz_bystrorezhushchey_stali_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/metchiki_dlya_rezby_pg_iz_bystrorezhushchey_stali_germaniya/ [R=301,L]
+	RewriteRule ^catalog/mikrometry_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/mikrometry_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/nutromery_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/nutromery_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/razvertki_iz_bystrorezhushchey_stali_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/razvertki_iz_bystrorezhushchey_stali_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/shtangentsirkuli_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/shtangentsirkuli_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/sverla_iz_bystrorezhushchey_stali_hss_hsco_hss_e_pm_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/sverla_iz_bystrorezhushchey_stali_hss_hsco_hss_e_pm_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/sverla_iz_tverdogo_splava_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/sverla_iz_tverdogo_splava_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/vysotomery_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/vysotomery_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/sverla_iz_bystrorezhushchey_stali_hss_hsco_hss_e_pm_guhring/sverlo_1_2kh65kh41_spiralnoe_5536_hsco_din340/$ https://frizar.ru/catalog/sverla_iz_bystrorezhushchey_stali_hss_hsco_hss_e_pm_guhring_germaniya/sverlo_1_2kh65kh41_spiralnoe_hsco_din340_5536_1_200/ [R=301,L]
+	RewriteRule ^catalog/zenkovki_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/zenkovanie/zenkovki_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/metchiki_dlya_dyuymovoy_unf_unef_unc_un_rezby_iz_bystrorezhushchey_stali_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/metchiki_dlya_dyuymovoy_unf_unef_unc_un_rezby_iz_bystrorezhushchey_stali_germaniya/ [R=301,L]
+	RewriteRule ^catalog/metchiki_dlya_rezby_npsl_iz_bystrorezhushchey_stali_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/metchiki_dlya_rezby_npsl_iz_bystrorezhushchey_stali_germaniya/ [R=301,L]
+	RewriteRule ^catalog/rezbofrezy_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/rezbofrezy_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/borfrezy/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/borfrezy/ [R=301,L]
+	RewriteRule ^catalog/frezy_dlya_obrabotki_pazov_segmentnykh_shponok/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_dlya_obrabotki_pazov_segmentnykh_shponok/ [R=301,L]
+	RewriteRule ^catalog/nozhi_dlya_frez/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/nozhi_dlya_frez/ [R=301,L]
+	RewriteRule ^catalog/frezy_kontsevye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_kontsevye/ [R=301,L]
+	RewriteRule ^catalog/frezy_diskovye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_diskovye/ [R=301,L]
+	RewriteRule ^catalog/frezy_diskovye_pazovye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_diskovye/frezy_diskovye_pazovye/ [R=301,L]
+	RewriteRule ^catalog/frezy_diskovye_trekhstoronnie/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_diskovye/frezy_diskovye_trekhstoronnie/ [R=301,L]
+	RewriteRule ^catalog/frezy_diskovye_trekhstoronnie_so_vstavnymi_nozhami/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_diskovye/frezy_diskovye_trekhstoronnie_so_vstavnymi_nozhami/ [R=301,L]
+	RewriteRule ^catalog/frezy_radiusnye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_diskovye/frezy_radiusnye/ [R=301,L]
+	RewriteRule ^catalog/frezy_dlya_t_obraznykh_pazov/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_dlya_t_obraznykh_pazov/ [R=301,L]
+	RewriteRule ^catalog/frezy_zuboreznye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_zuboreznye/ [R=301,L]
+	RewriteRule ^catalog/frezy_diskovye_zubonareznye_modulnye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_zuboreznye/frezy_diskovye_zubonareznye_modulnye/ [R=301,L]
+	RewriteRule ^catalog/frezy_chervyachnye_modulnye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_zuboreznye/frezy_chervyachnye_modulnye/ [R=301,L]
+	RewriteRule ^catalog/frezy_chervyachnye_dlya_narezaniya_zubev_zvezdochek/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_zuboreznye/frezy_chervyachnye_dlya_narezaniya_zubev_zvezdochek/ [R=301,L]
+	RewriteRule ^catalog/frezy_chervyachnye_dlya_shlitsevykh_valov_s_pryamobochnym_profilem/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_zuboreznye/frezy_chervyachnye_dlya_shlitsevykh_valov_s_pryamobochnym_profilem/ [R=301,L]
+	RewriteRule ^catalog/frezy_iz_bystrorezhushchey_stali_s_tsilindricheskim_khvostovikom_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_iz_bystrorezhushchey_stali_s_tsilindricheskim_khvostovikom_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/frezy_odnouglovye_nasadnye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_odnouglovye_nasadnye/ [R=301,L]
+	RewriteRule ^catalog/frezy_tortsevye_nasadnye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_tortsevye_nasadnye/ [R=301,L]
+	RewriteRule ^catalog/frezy_tsilindricheskie_nasadnye/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_tsilindricheskie_nasadnye/ [R=301,L]
+	RewriteRule ^catalog/sverla_so_smennymi_plastinami_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/sverla_so_smennymi_plastinami_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/razvertki_iz_tverdogo_splava_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/razvertki_iz_tverdogo_splava_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/vspomogatelnye_prisposobleniya_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/vspomogatelnye_prisposobleniya_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/izmerenie_formy_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/izmerenie_formy_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/kalibr_probki_gladkie_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/kalibr_probki_gladkie_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/kontsevye_mery_dliny_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/kontsevye_mery_dliny_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/mery_tverdosti_rossiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/mery_tverdosti_rossiya/ [R=301,L]
+	RewriteRule ^catalog/mikrometricheskie_golovki_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/mikrometricheskie_golovki_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/skoby_izmeritelnye_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/skoby_izmeritelnye_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/tolshchinomery_glubinomery_uglomery_krontsirkuli_mitutoyo_yaponiya/$ https://frizar.ru/catalog/ruchnye_sredstva_izmereniya/tolshchinomery_glubinomery_uglomery_krontsirkuli_mitutoyo_yaponiya/ [R=301,L]
+	RewriteRule ^catalog/narezanie_rezby/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/ [R=301,L]
+	RewriteRule ^catalog/obrabotka_otverstiy_guhring_germaniya/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/frezerovanie/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/ [R=301,L]
+	RewriteRule ^catalog/zenkovanie/$ https://frizar.ru/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/zenkovanie/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_zuboreznye/frezy_chervyachnye_modulnye/freza_m2_25_70kh56kh27_20_gradusov_klass_v_ugol_2grad_chervyachnaya_modulnaya_s_pokrytiem_kib_r6m5fz/$ https://frizar.ru/catalog/frezy_chervyachnye_modulnye/freza_m2_25_70kh56kh27_20_gradusov_klass_v_ugol_2grad_chervyachnaya_modulnaya_s_pokrytiem_kib_r6m5fz/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/metchiki_dlya_rezby_pg_iz_bystrorezhushchey_stali/metchik_pg_48kh16_bo_skvoznoy_hss_noris/$ https://frizar.ru/catalog/metchiki_dlya_rezby_pg_iz_bystrorezhushchey_stali/metchik_pg_48kh16_bo_skvoznoy_hss_noris/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/metchiki_dlya_rezby_pg_iz_bystrorezhushchey_stali/metchik_pg_9kh18_zo_skvoznoy_hss_noris/$ https://frizar.ru/catalog/metchiki_dlya_rezby_pg_iz_bystrorezhushchey_stali/metchik_pg_9kh18_zo_skvoznoy_hss_noris/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/razvertki_iz_bystrorezhushchey_stali_guhring/razvertka_3kh61kh33kh15_ts_kh_mashinnaya_z_6_h7_8988_hss_e_din212/$ https://frizar.ru/catalog/razvertki_iz_bystrorezhushchey_stali_guhring/razvertka_3kh61kh33kh15_ts_kh_mashinnaya_z_6_h7_8988_hss_e_din212/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/razvertki_iz_tverdogo_splava_guhring/razvertka_0_99kh4kh50kh22kh6_z_3_mashinnaya_5527_vhm_tverdyy_splav_stp/$ https://frizar.ru/catalog/razvertki_iz_tverdogo_splava_guhring/razvertka_0_99kh4kh50kh22kh6_z_3_mashinnaya_5527_vhm_tverdyy_splav_stp/ [R=301,L]
+	RewriteRule ^catalog/ruchnye_sredstva_izmereniya/tolshchinomery_glubinomery_uglomery_krontsirkuli_mitutoyo/glubinomer_0_200mm_absolute_digimatic_571_252_20_mitutoyo/$ https://frizar.ru/catalog/tolshchinomery_glubinomery_uglomery_krontsirkuli_mitutoyo/glubinomer_0_200mm_absolute_digimatic_571_252_20_mitutoyo/ [R=301,L]
+	RewriteRule ^catalog/ruchnye_sredstva_izmereniya/vspomogatelnye_prisposobleniya_mitutoyo/nakonechnik_10_11mm_smennyy_dlya_nutromera_serii_526_102454_mitutoyo/$ https://frizar.ru/catalog/vspomogatelnye_prisposobleniya_mitutoyo/nakonechnik_10_11mm_smennyy_dlya_nutromera_serii_526_102454_mitutoyo/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_iz_bystrorezhushchey_stali_s_tsilindricheskim_khvostovikom_guhring/freza_3kh49kh5_z_2_d2_6_shponochnaya_m42_din327_8970_3_000/$ https://frizar.ru/catalog/frezy_iz_bystrorezhushchey_stali_s_tsilindricheskim_khvostovikom_guhring/freza_3kh49kh5_z_2_d2_6_shponochnaya_m42_din327_8970_3_000/ [R=301,L]
+
+	RewriteRule ^catalog/shtangentsirkuli_mitutoyo_yaponiya/shtangentsirkul_0_150_absolute_diimatic_ip67_500_706_20_mitutoyo/ https://frizar.ru/catalog/shtangentsirkuli_mitutoyo_yaponiya/shtangentsirkul_0_150mm_absolute_diimatic_ip67_500_706_20_mitutoyo/ [R=301,L]
+
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/sverla_iz_bystrorezhushchey_stali_hss_hsco_hss_e_pm_guhring_germaniya/ /catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/sverla_ts_kh_iz_bystrorezhushchey_stali_hss_hsco_hss_e_pm_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/sverla_iz_tverdogo_splava_guhring_germaniya/ /catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/sverla_ts_kh_iz_tverdogo_splava_guhring_germaniya/ [R=301,L]
+	RewriteRule ^catalog/nutromery_mitutoyo_yaponiya/nutromer_4_5mm_dvukhtochechnyy_metricheskiy_holtest_368_004_mitutoyo/ /catalog/nutromery_mitutoyo_yaponiya/nutromer_4_5mm_dvukhtochechnyy_mikrometricheskiy_holtest_368_004_mitutoyo/ [R=301,L]
+
+	RewriteRule ^catalog/shtangentsirkuli_mitutoyo_yaponiya/absolute_digimatic/ /catalog/ruchnye_sredstva_izmereniya/shtangentsirkuli_mitutoyo_yaponiya/shtangentsirkuli_absolute_digimatic/ [R=301,L]
+	
+	RewriteRule ^catalog/tolshchinomery_glubinomery_uglomery_krontsirkuli_mitutoyo_yaponiya/glubinomer/ /catalog/ruchnye_sredstva_izmereniya/tolshchinomery_glubinomery_uglomery_krontsirkuli_mitutoyo_yaponiya/glubinomery/ [R=301,L]
+	
+	RewriteRule ^catalog/tolshchinomery_glubinomery_uglomery_krontsirkuli_mitutoyo_yaponiya/krontsirkuli/ /catalog/ruchnye_sredstva_izmereniya/tolshchinomery_glubinomery_uglomery_krontsirkuli_mitutoyo_yaponiya/krontsirkuli_1/ [R=301,L]
+	
+	RewriteRule ^catalog/indikatory_mitutoyo_yaponiya/chasovye/ /catalog/ruchnye_sredstva_izmereniya/indikatory_mitutoyo_yaponiya/indikatory_chasovogo_tipa/ [R=301,L]
+	
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/metchiki_dlya_dyuymovoy_unf_unef_unc_un_rezby_iz_bystrorezhushchey_stali_germaniya/ /catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/metchiki_dlya_narezaniya_rezby/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/metchiki_dlya_metricheskoy_m_rezby_iz_bystrorezhushchey_stali_rossiya/ /catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/metchiki_dlya_narezaniya_rezby/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/metchiki_dlya_rezby_npsl_iz_bystrorezhushchey_stali_germaniya/ /catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/metchiki_dlya_narezaniya_rezby/ [R=301,L]
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/metchiki_dlya_rezby_pg_iz_bystrorezhushchey_stali_germaniya/ /catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/metchiki_dlya_narezaniya_rezby/ [R=301,L]
+	
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/plashki_dlya_metricheskoy_m_rezby_iz_bystrorezhushchey_stali_chekhiya/ /catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/plashki_dlya_narezaniya_rezby/ [R=301,L]
+	
+	
+	
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/plashki_dlya_metricheskoy_m_rezby_rossiya/ /catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/plashki_dlya_narezaniya_rezby/ [R=301,L]
+	
+	
+	
+	RewriteRule ^catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/ /catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_i_nakatka_rezby/ [R=301,L]
+
+	RewriteRule ^catalog/ruchnye_sredstva_izmereniya/shtangentsirkuli_mitutoyo_yaponiya/ /catalog/ruchnye_sredstva_izmereniya/shtangentsirkuli/ [R=301,L]
+
+	
+	
+	RewriteRule ^catalog/mikroskopy/$ https://frizar.ru/ [R=301,L]
+
+    #RewriteRule ^articles(.*?) / [R=301,L]
+    RewriteRule ^brands(.*?) / [R=301,L]
+
+    RewriteRule ^company/actions/$ https://frizar.ru/ [R=301,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+	RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule mod_dir.c>
+	DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresByType image/jpeg "access plus 3 day"
+	ExpiresByType image/gif "access plus 3 day"
+	ExpiresByType image/png "access plus 3 day"
+	ExpiresByType text/css "access plus 3 day"
+	ExpiresByType application/javascript "access plus 3 day"  
+</IfModule>

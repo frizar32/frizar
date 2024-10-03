@@ -1,0 +1,68 @@
+.bxr-list .slick-slider .slick-prev
+,.bxr-list .slick-slider .slick-next{
+    content: ' ';
+    display: block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -34px;
+}
+
+.bxr-list .slick-slider .slick-next{
+    right: 0;
+    left: auto;
+}
+
+.bxr-list .slick-dots {
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.bxr-list  .slick-dots li {
+    float: left;
+    margin-right: 6px;
+}
+
+.bxr-list .slick-dots li button {
+    cursor: pointer;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border: none;
+    color: transparent;
+    border-radius: 0;
+    font-size: 0;
+    background: #dddddd;
+}
+
+.bxr-list .bxr-list .slick-dots li.slick-active button {
+    background: #a3a3a3;
+}
+
+.docum_img {
+    width: 100%;
+}
+
+.t_2 {
+    /* height: 25%; */
+    margin-bottom: 8%;
+}
+
+.bxr-element-action, .bxr-element-name{
+    margin-top: 15px;
+    text-align: center;
+    vertical-align: super;
+}
+@media (min-width: 350px) and (max-width: 550px){
+    .t_2 {
+        margin-bottom: 50px;
+    }
+
+    .bxr-element-name {
+        height: 50px!important;
+    }
+}

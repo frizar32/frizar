@@ -1,0 +1,87 @@
+.bxr-section-desc {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+span.bxr-font-hover-light-span {
+    cursor: default;
+}
+
+span.bxr-offer-img-in-list.fancybox-Y {
+    cursor: pointer;
+}
+
+.open-form-help {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    margin: 17px auto;
+    color: #fff;
+    background-color: #0F7EDA;
+    border-color: #007bff;
+    font-weight: bold;
+	opacity: 0.9;
+}
+.open-form-help:hover {
+	color: #fff;
+}
+
+.button_next {
+	background: #3c569f;
+	color: #ffffff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 2px;
+	padding: 8px 20px;
+    	display: block;
+    	width: 90px;
+    	text-align: center;
+}
+
+.button_next:hover {
+	background: #f8877f;
+	text-decoration: none;
+	color: white;
+}
+
+
+.inform-detail {
+    color: #868d95;
+}
+
+.inform-detail_send a, .inform-detail_pay a {
+    color: #3C569F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.block_reviews {
+	border: 1px solid #dbdbdb;
+	padding: 10px 20px;
+	min-height: 300px;
+	height: 100%;
+}
+
+.block_reviews_title {
+	font-weight: bold;
+
+}
+
+.block_reviews_descr {
+	color: #868d95;
+}
+
+
+.block_reviews_descr_add {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.block_reviews_descr_add a {
+	color: #3C569F;
+	text-decoration: underline;
+	font-weight: bold;
+	
+}

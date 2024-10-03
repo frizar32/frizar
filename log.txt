@@ -1,0 +1,2685 @@
+Host: frizar.ru
+Date: 2023-11-20 16:06:37
+Module: arFields
+206.208
+#0: ToDeletePrice::onPriceEvent
+	
+#1: call_user_func_array
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/main/lib/eventmanager.php:442
+#2: Bitrix\Main\EventManager->sendToEventHandler
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/main/lib/eventmanager.php:378
+#3: Bitrix\Main\EventManager->send
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/catalog/lib/model/entity.php:299
+#5: Bitrix\Catalog\Model\Entity::update
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/catalog/general/price.php:241
+----------
+Host: frizar.ru
+Date: 2023-11-20 16:09:28
+Module: arFields
+206.208
+#0: ToDeletePrice::onPriceEvent
+	
+#1: call_user_func_array
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/main/lib/eventmanager.php:442
+#2: Bitrix\Main\EventManager->sendToEventHandler
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/main/lib/eventmanager.php:378
+#3: Bitrix\Main\EventManager->send
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/catalog/lib/model/entity.php:299
+#5: Bitrix\Catalog\Model\Entity::update
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/catalog/general/price.php:241
+----------
+Host: frizar.ru
+Date: 2023-11-20 16:09:40
+Module: arFields
+2028.7000188
+#0: ToDeletePrice::onPriceEvent
+	
+#1: call_user_func_array
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/main/lib/eventmanager.php:442
+#2: Bitrix\Main\EventManager->sendToEventHandler
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/main/lib/eventmanager.php:378
+#3: Bitrix\Main\EventManager->send
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/catalog/lib/model/entity.php:299
+#5: Bitrix\Catalog\Model\Entity::update
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/catalog/general/price.php:241
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    11 => '[11] Банковская карта',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    11 => '[11] Банковская карта',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    11 => '[11] Банковская карта',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    11 => '[11] Банковская карта',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    11 => '[11] Банковская карта',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    11 => '[11] Банковская карта',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Без доставки',
+    10 => '[10] Деловые линии',
+    11 => '[11] Доставка до пункта выдачи',
+    1 => '[1] Доставка курьером',
+    2 => '[2] Самовывоз',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    11 => '[11] Банковская карта',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    11 => '[11] Банковская карта',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Без доставки',
+    10 => '[10] Деловые линии',
+    11 => '[11] Доставка до пункта выдачи',
+    1 => '[1] Доставка курьером',
+    2 => '[2] Самовывоз',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'mlist',
+  1 => 5,
+  2 => 
+  array (
+    1 => 'Администраторы',
+    2 => 'Все пользователи (в том числе неавторизованные)',
+    3 => 'Пользователи, имеющие право голосовать за рейтинг',
+    5 => 'Зарегистрированные пользователи',
+    4 => 'Пользователи имеющие право голосовать за авторитет',
+    9 => 'loadout',
+    6 => 'Администраторы интернет-магазина',
+    8 => 'Почтовые пользователи',
+    7 => 'Контент-редакторы',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'mlist',
+  1 => 5,
+  2 => 
+  array (
+    1 => 'Администраторы',
+    2 => 'Все пользователи (в том числе неавторизованные)',
+    3 => 'Пользователи, имеющие право голосовать за рейтинг',
+    5 => 'Зарегистрированные пользователи',
+    4 => 'Пользователи имеющие право голосовать за авторитет',
+    9 => 'loadout',
+    6 => 'Администраторы интернет-магазина',
+    8 => 'Почтовые пользователи',
+    7 => 'Контент-редакторы',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2023-12-07 16:11:47
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Без доставки',
+    10 => '[10] Деловые линии',
+    11 => '[11] Доставка до пункта выдачи',
+    1 => '[1] Доставка курьером',
+    2 => '[2] Самовывоз',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'mlist',
+  1 => 5,
+  2 => 
+  array (
+    1 => 'Администраторы',
+    2 => 'Все пользователи (в том числе неавторизованные)',
+    3 => 'Пользователи, имеющие право голосовать за рейтинг',
+    5 => 'Зарегистрированные пользователи',
+    4 => 'Пользователи имеющие право голосовать за авторитет',
+    9 => 'loadout',
+    6 => 'Администраторы интернет-магазина',
+    8 => 'Почтовые пользователи',
+    7 => 'Контент-редакторы',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Без доставки',
+    10 => '[10] Деловые линии',
+    11 => '[11] Доставка до пункта выдачи',
+    1 => '[1] Доставка курьером',
+    2 => '[2] Самовывоз',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'mlist',
+  1 => 5,
+  2 => 
+  array (
+    1 => 'Администраторы',
+    2 => 'Все пользователи (в том числе неавторизованные)',
+    3 => 'Пользователи, имеющие право голосовать за рейтинг',
+    5 => 'Зарегистрированные пользователи',
+    4 => 'Пользователи имеющие право голосовать за авторитет',
+    9 => 'loadout',
+    6 => 'Администраторы интернет-магазина',
+    8 => 'Почтовые пользователи',
+    7 => 'Контент-редакторы',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-01-24 12:43:46
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Без доставки',
+    10 => '[10] Деловые линии',
+    11 => '[11] Доставка до пункта выдачи',
+    1 => '[1] Доставка курьером',
+    2 => '[2] Самовывоз',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'mlist',
+  1 => 5,
+  2 => 
+  array (
+    1 => 'Администраторы',
+    2 => 'Все пользователи (в том числе неавторизованные)',
+    3 => 'Пользователи, имеющие право голосовать за рейтинг',
+    5 => 'Зарегистрированные пользователи',
+    4 => 'Пользователи имеющие право голосовать за авторитет',
+    9 => 'loadout',
+    6 => 'Администраторы интернет-магазина',
+    8 => 'Почтовые пользователи',
+    7 => 'Контент-редакторы',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:14
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Без доставки',
+    10 => '[10] Деловые линии',
+    11 => '[11] Доставка до пункта выдачи',
+    1 => '[1] Доставка курьером',
+    2 => '[2] Самовывоз',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'mlist',
+  1 => 5,
+  2 => 
+  array (
+    1 => 'Администраторы',
+    2 => 'Все пользователи (в том числе неавторизованные)',
+    3 => 'Пользователи, имеющие право голосовать за рейтинг',
+    5 => 'Зарегистрированные пользователи',
+    4 => 'Пользователи имеющие право голосовать за авторитет',
+    9 => 'loadout',
+    6 => 'Администраторы интернет-магазина',
+    8 => 'Почтовые пользователи',
+    7 => 'Контент-редакторы',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-06-04 13:16:19
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    'IK' => 'example',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    'IK' => 'example',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Без доставки',
+    10 => '[10] Деловые линии',
+    11 => '[11] Доставка до пункта выдачи',
+    1 => '[1] Доставка курьером',
+    2 => '[2] Самовывоз',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'mlist',
+  1 => 5,
+  2 => 
+  array (
+    1 => 'Администраторы',
+    2 => 'Все пользователи (в том числе неавторизованные)',
+    3 => 'Пользователи, имеющие право голосовать за рейтинг',
+    5 => 'Зарегистрированные пользователи',
+    4 => 'Пользователи имеющие право голосовать за авторитет',
+    6 => 'Администраторы интернет-магазина',
+    8 => 'Почтовые пользователи',
+    7 => 'Контент-редакторы',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 21:31:25
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    'IK' => 'example',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => 'Все сайты',
+    'IK' => 'example',
+    's1' => 'Интернет-магазин (Сайт по умолчанию)',
+    'cy' => 'cy',
+    'mq' => 'mq',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    'N' => '[N] Принят, ожидается оплата',
+    'P' => '[P] Оплачен, формируется к отправке',
+    'F' => '[F] Выполнен',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'text',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Банковский перевод',
+    12 => '[12] Сбербанк',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'list',
+  1 => 
+  array (
+    '' => '<Не выбрано>',
+    9 => '[9] Без доставки',
+    10 => '[10] Деловые линии',
+    11 => '[11] Доставка до пункта выдачи',
+    1 => '[1] Доставка курьером',
+    2 => '[2] Самовывоз',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'mlist',
+  1 => 5,
+  2 => 
+  array (
+    1 => 'Администраторы',
+    2 => 'Все пользователи (в том числе неавторизованные)',
+    3 => 'Пользователи, имеющие право голосовать за рейтинг',
+    5 => 'Зарегистрированные пользователи',
+    4 => 'Пользователи имеющие право голосовать за авторитет',
+    6 => 'Администраторы интернет-магазина',
+    8 => 'Почтовые пользователи',
+    7 => 'Контент-редакторы',
+  ),
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'checkbox',
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------
+Host: frizar.ru
+Date: 2024-07-24 22:44:08
+array (
+  0 => 'text',
+  1 => 20,
+)
+#0: include(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/modules/sale/admin/1c_admin.php:107
+#1: require_once(string)
+	/home/f/frizar/shop.frizar/public_html/bitrix/admin/1c_admin.php:2
+----------

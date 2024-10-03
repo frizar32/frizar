@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Метчики", 
+		"/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/narezanie_rezby/metchiki_dlya_metricheskoy_m_rezby_iz_bystrorezhushchey_stali_guhring_germaniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сверла", 
+		"/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/obrabotka_otverstiy_guhring_germaniya/sverla_ts_kh_iz_tverdogo_splava_guhring_germaniya/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Фрезы", 
+		"/catalog/rezhushchiy_instrument_dlya_metalloobrabotki/frezerovanie/frezy_iz_tverdogo_splava_s_tsilindricheskim_khvostovikom_guhring_germaniya/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

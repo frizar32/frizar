@@ -1,0 +1,55 @@
+.bxr-promo-ribbon  {
+    margin: 20px -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: -webkit-flex;
+     display: -ms-flex;
+     display: flex;
+     gap: 10px;
+     justify-content: space-between;
+}
+
+.bxr-promo-ribbon .bxr-promo-element {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.bxr-promo-ribbon .bxr-promo-element {
+	width: calc(20% - 12px)
+}
+
+.bxr-promo-ribbon.bxr-promo-block .bxr-promo-element {
+    margin-bottom: 10px;
+}
+.bxr-promo-ribbon.bxr-promo-block .bxr-promo-element {
+
+}
+
+.bxr-promo-ribbon.bxr-promo-mono .bxr-promo-element {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bxr-promo-ribbon .bxr-promo-element .bxr-promo-ribbon-info {
+	position:relative;
+}
+
+.color_style {
+	color:#01366A;
+}
+
+@media (max-width:991px) {
+  .bxr-promo-ribbon-wrapper{
+    overflow-x: auto;
+  }
+  .bxr-promo-ribbon{
+    width: fit-content;
+  }
+  .bxr-promo-ribbon .bxr-promo-element{
+    width: 200px;
+  }
+  .bxr-default-element .bxr-promo-ribbon-info{
+    background-color: transparent;
+  }
+}

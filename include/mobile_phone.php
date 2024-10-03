@@ -1,0 +1,1 @@
+<i class="fa fa-phone"></i>&nbsp;&nbsp; <b>8 800 700-51-21</b>
