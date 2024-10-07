@@ -116,7 +116,7 @@ $CUR_PAGE = $APPLICATION->GetCurPage(false);
 
 	<? if ($_GET["PAGEN_1"]): ?>
 		<link rel="canonical" href="<?= $APPLICATION->GetCurPage(false); ?>"><? endif; ?>
-	<!-- <meta name="yandex-verification" content="f79c3ced5b217cbb" /> -->
+	<meta name="yandex-verification" content="a65214afc7affdff" />
 	<!-- <meta name="yandex-verification" content="14dc7b74ea7cc598" /> -->
 	<meta name="google-site-verification" content="bELQc7IttulswFEktAFtvQTWpWp2_K_T1Wh8MJ7r8TY" />
 
